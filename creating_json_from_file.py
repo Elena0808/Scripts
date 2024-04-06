@@ -1,9 +1,10 @@
 import json
+import base64
 from openpyxl import load_workbook
 
 
 # Открываем файл и открываем нужный лист
-workbook = load_workbook('file.xlsx')
+workbook = load_workbook('areas_import_template_4проверки-dairy.xlsx')
 sheet = workbook.active
 
 # Создаем пустой список для данных, проходимся по всем строкам и добавляем данные в список
